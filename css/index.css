@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    border: 15px solid black;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 100%;
+    text-align: center;
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+
+}
