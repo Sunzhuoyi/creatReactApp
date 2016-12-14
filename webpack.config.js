@@ -12,14 +12,11 @@ module.exports = {
     filename:'bundle.js',
     publicPath:'/static/'
   },
-  resolve:{
-    extensions:['','.js','.jsx']
-  },
   plugins:[
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
-    new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } })
+    /*new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } })*/
   ],
   module:{
     loaders: [
